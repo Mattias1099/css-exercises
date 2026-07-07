@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+
+.odd-numbered {
+    background-color: rgba(250, 176, 176);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+/* Unsure if Verdana should be in quotation marks or not */
+
+#number-two {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.shared-font-size {
+    font-size: 24px;
+}
+
+#number-four {
+    background-color: rgb(125, 209, 118);
+    font-weight: bold;
+}
