@@ -2,9 +2,8 @@
 
 .odd-numbered {
     background-color: rgba(250, 176, 176);
-    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
-/* Unsure if Verdana should be in quotation marks or not */
 
 #number-two {
     color: rgb(0, 0, 255);
