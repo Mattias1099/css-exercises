@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px 8px 16px; 
+  /* can be written as just '8px 16px' per solution code */
 }
 
 input {
@@ -24,3 +28,69 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.left-links,
+.right-links {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 97, 97);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  /* One alternative to separate the links */ 
+}
+
+.footer .left-links {
+  margin-right: auto;
+  /* Another alternative to separate the links */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+}
+
+.footer {
+  display: flex;
+  background: rgb(212, 209, 209);
+}
+
+.left-links {
+  display: flex;
+  gap: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.right-links {
+  display: flex;
+  gap: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.input {
+  margin: 24px;
+}
+
+
+
+
+
+
+/*
+this removes the dots on the list items
+  list-style-type: none;
+
+this removes the line under the links
+  text-decoration: none;
+*/
